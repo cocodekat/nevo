@@ -631,14 +631,15 @@ video {
 #izm06 {
   padding-top: 0px;
   padding-right: 0px;
-  padding-bottom: 2px;
+  padding-bottom: 0px;
   padding-left: 0px;
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 19px;
+  margin-bottom: 32px;
   margin-left: 0px;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  grid-template-rows: repeat(1, 362px);
 }
 
 #Cross-OS-2-2-2 {
