@@ -45,13 +45,13 @@
             <ul id="il75k" class="sidebar-nav-list">
               <li id="ilg2l">
                 <a href="../../index.html" id="i0xgq" class="gjs-t-link sidebar-link-home">
-                  <img src="https://api.iconify.design/lucide-home.svg?color=%23e6e9ef" alt="Home icon" width="18" height="18" loading="lazy" id="i81pk" />
+                  <img src="https://api.iconify.design/lucide-home.svg?color=%23ffffff" alt="Home icon" width="18" height="18" loading="lazy" id="i81pk" />
                   <span id="iyur9">Home</span>
                 </a>
               </li>
               <li id="il2s3">
                 <a href="../../docs/" id="iyaakh-2" class="gjs-t-link sidebar-link-downloads-active">
-                  <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw" />
+                  <img src="https://api.iconify.design/lucide-book-open.svg?color=%23ffffff" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw" />
                   <span id="i2nt0q-2">Documentation</span>
                 </a>
               </li>
@@ -67,7 +67,7 @@
             <ul id="il75k-2" class="sidebar-nav-list">
               <li id="ilg2l-2"></li>
               <li id="il2s3-2">
-                <a href="index.html" id="iyaakh-2-2" class="gjs-t-link sidebar-link-downloads-active">
+                <a href="" id="iyaakh-2-2" class="gjs-t-link sidebar-link-downloads-active">
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2" />
                   <span id="i2nt0q-2-2">Printing</span>
                 </a>
@@ -104,23 +104,23 @@
           <div id="iz8gg" class="gjs-t-border release-summary-card">
             <div id="itt5a" class="release-summary-top">
               <div id="iksid" class="release-summary-text">
-                <h2 id="ibdju" class="gjs-t-h2 release-version">Printing</h2>
+                <h2 id="ibdju" class="gjs-t-h2 release-version">Functions</h2>
               </div>
               <div id="ihn5h" class="release-meta">
-                <span id="ive2c">Released on 2025-10-11</span>
+                <span id="ive2c">Released on 2025-11-27</span>
               </div>
             </div>
           </div>
           <div id="iz8gg-2" class="gjs-t-border release-summary-card">
             <div id="itt5a-2" class="release-summary-top">
               <div id="iksid-2" class="release-summary-text">
-                <h2 id="ibdju-2" class="gjs-t-h2 release-version">Why do we have printing?</h2>
+                <h2 id="ibdju-2" class="gjs-t-h2 release-version">Why do we have functions?</h2>
               </div>
               <div id="ihn5h-2" class="release-meta"></div>
             </div>
             <div id="itt5a-2-2" class="release-summary-top">
               <div id="iksid-2-2" class="release-summary-text">
-                <h2 id="ibdju-2-2" class="gjs-t-h2 release-version">Printing is used in every language for debugging or terminal-app purposes. Let’s say we are building an app. And we have to check if our program is working. Instead of testing every single feature we can for example print when a function runs to check if that function actually ran, so it is very very popular.</h2>
+                <h2 id="ibdju-2-2" class="gjs-t-h2 release-version">Functions are a very important part in code. It allows us to easily reuse code instead of having to rewrite it over and over again.</h2>
               </div>
               <div id="ihn5h-2-2" class="release-meta"></div>
             </div>
@@ -134,42 +134,12 @@
             </div>
             <div id="itt5a-2-2-2" class="release-summary-top">
               <div id="iksid-2-2-2" class="release-summary-text">
-                <h2 id="ibdju-2-2-3" class="gjs-t-h2 release-version">Now let’s try it out ourselves. Printing works almost the same as in c, just instead of printf we do print:
-                  <br id="ilm3il" />
-                  <pre id="iiez6g"><code id="i38uvo">print(“Hello world!“)!</code></pre>
-                  <br data-gs-ib="" id="iz7d4o" />This will print hello world. We use the () as print is a function, Then we use ““ because we want to print a string. A string is just a piece of text. The ! tells the compiler the line has ended, so this replaces the ; from C. To print variables we (just like in c) do:
-                  <pre id="iiez6g-2"><code id="icxdje">print(“%variable_type“, variable);</code></pre>
-                  <br data-gs-ib="" id="igyh0f" />So to print a int, we would do %d or %I, here are all of the types:
-                  <pre id="ig2g9w"><code id="i901gc"><span id="ijz8vk" class="code-h2">Integer types</span>
-● %d or %i -&gt; signed decimal integer (int)
-● %u -&gt; unsigned decimal integer (unsigned int)
-● %o -&gt; unsigned octal
-● %x -&gt; unsigned hexadecimal (lowercase a-f)
-● %X -&gt; unsigned hexadecimal (uppercase A-F)
-
-<span id="ifzegy" class="code-h2">Character and string</span>
-● %c -&gt; single character (char)
-● %s -&gt; string (null-terminated char *)
-
-<span id="i9imv1" class="code-h2">Floating-point types</span>
-● %f -&gt; decimal floating-point (e.g., 3.14)
-● %e or %E -&gt; scientific notation (e.g., 3.14e+00)
-● %g or %G -&gt; shortest representation, uses %f or %e
-● %a or %A -&gt; hexadecimal floating-point (C99)
-
-<span id="ihiw6m" class="code-h2">Pointers</span>
-● %p -&gt; pointer address (implementation-defined, usually hex)
-
-<span id="ita6ht" class="code-h2">Miscellaneous</span>
-● %% -&gt; literal percent sign
-
-<span id="iyd4oo" class="code-h2">Length modifiers</span>
-● h -&gt; short (e.g., %hd for short int)
-● l -&gt; long (e.g., %ld for long int)
-● ll -&gt; long long (e.g., %lld)
-● z -&gt; size_t (e.g., %zu for unsigned size type)
-● L -&gt; long double (e.g., %Lf)
-                  </code></pre>
+                <h2 id="ibdju-2-2-3" class="gjs-t-h2 release-version">Now, let’s try it out ourselfs. FIrst, we need to create a function. To do this we also need a type. This can be any type like you saw in the printing doc. The type means what the function will return. If the function is an Integer we at the end of the function do return 1. This tells the code the function exited without problems. Here’s an example:
+                  <br data-gs-ib="" id="iynuhl" />
+                  <br data-gs-ib="" id="ifkx1k" /><code>int say_hello() {
+                    }
+                    </code>
+                  <br data-gs-ib="" id="i494n3" />Everything inside of the brackets {} is part of the function, to declare parameters we do it exactly the same as in C.
                 </h2>
               </div>
               <div id="ihn5h-2-2-2" class="release-meta"></div>
