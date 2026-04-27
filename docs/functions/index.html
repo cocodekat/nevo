@@ -64,6 +64,10 @@
             </ul>
           </nav>
           <nav id="ir08d-2" class="gjs-t-border sidebar-nav-container">
+            <a href="../functions/" id="iyaakh-2-2-4" class="gjs-t-link sidebar-link-downloads-active">
+              <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-4" />
+              <span id="i2nt0q-2-2-4">Functions</span>
+            </a>
             <ul id="il75k-2" class="sidebar-nav-list">
               <li id="ilg2l-2"></li>
               <li id="il2s3-2">
@@ -74,10 +78,6 @@
                 <a href="../variables/" id="iyaakh-2-2-5" class="gjs-t-link sidebar-link-downloads-active">
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-5" />
                   <span id="i2nt0q-2-2-5">Variables</span>
-                </a>
-                <a href="../functions/" id="iyaakh-2-2-4" class="gjs-t-link sidebar-link-downloads-active">
-                  <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-4" />
-                  <span id="i2nt0q-2-2-4">Functions</span>
                 </a>
                 <a href="../statements/" id="iyaakh-2-2-3" class="gjs-t-link sidebar-link-downloads-active">
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-3" />
@@ -107,7 +107,7 @@
                 <h2 id="ibdju" class="gjs-t-h2 release-version">Functions</h2>
               </div>
               <div id="ihn5h" class="release-meta">
-                <span id="ive2c">Released on 2025-11-27</span>
+                <span id="ive2c">27-4-2026</span>
               </div>
             </div>
           </div>
@@ -132,22 +132,32 @@
               </div>
               <div id="ihn5h-2-3" class="release-meta"></div>
             </div>
+            <br id="ivg5d3" />Now, let’s try it out ourselves. FIrst, we need to create a function. For example, if we want a function that prints ‘hello’, we can do:
+            <br data-gs-ib="" id="i70co9" />
+            <br id="ivaa4j" />
+            <pre id="ire87k"><code id="i981wp">_main() {}</code></pre>
+            <br id="in4dvs" />the code will always start at _main, if this function is not defined the compiler will give critical errors.
+            <br data-gs-ib="" id="ig20rg" />Everything inside of the brackets {} is part of the function.
+            <br id="ikrkqp" />The function name has to start with an underscore _ , to make sure our computer has no chance of mixing code.
+            <br id="iz4lxj" />Lets now try to print ‘hello’
+            <pre id="ihf24j"><code id="im0whf">_main() {
+print("hello")
+}</code></pre>
+            <div id="iz62yc" class="release-summary-text">
+              <h2 id="icv0lh" class="gjs-t-h2 release-version">Parameters</h2>
+            </div>
+            <br id="i5yb7x" />if we for example want to take a variable and print that, we could do:
+            <pre id="i8g0t3"><code id="ilg6do">_main() {
+num x = 1
+jump _hello(x)
+}
+
+_hello(var) {
+print(var)
+}</code></pre>
+            <br id="i22lhu" />this will print whatever we put into x. We ofcourse do not need a second function to print a variable but this is simply for demonstration purposes.
             <div id="itt5a-2-2-2" class="release-summary-top">
-              <div id="iksid-2-2-2" class="release-summary-text">
-                <h2 id="ibdju-2-2-3" class="gjs-t-h2 release-version">Now, let’s try it out ourselfs. FIrst, we need to create a function. To do this we also need a type. This can be any type like you saw in the printing doc. The type means what the function will return. If the function is an Integer we at the end of the function do return 1. This tells the code the function exited without problems. Here’s an example:
-                  <br data-gs-ib="" id="i70co9" />
-                  <br data-gs-ib="" id="izfrlc" />
-                  <pre id="ire87k"><code id="ieki8p">int say_hello() { }</code></pre>
-                  <br data-gs-ib="" id="ig20rg" />Everything inside of the brackets {} is part of the function, to declare parameters we do it exactly the same as in C.
-                  <br id="igaeyg" />
-                  <br id="iw193z" />For example, if we have a function called yap() and we want it to have a string parameter that it will print, we can do:
-                  <br id="ivlksg" />
-                  <pre id="ihf24j"><code id="i58d4x">int yap(char* text) { 
-  print("%s\n", text)! 
-  return 1! 
-}                </code></pre>
-                </h2>
-              </div>
+              <div id="iksid-2-2-2" class="release-summary-text"></div>
               <div id="ihn5h-2-2-2" class="release-meta"></div>
             </div>
           </div><!-- OS Download Cards --><!-- Installation Instructions -->
