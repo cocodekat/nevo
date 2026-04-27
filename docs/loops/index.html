@@ -64,16 +64,16 @@
             </ul>
           </nav>
           <nav id="ir08d-2" class="gjs-t-border sidebar-nav-container">
+            <a href="../loops/" id="iyaakh-2-2-4" class="gjs-t-link sidebar-link-downloads-active">
+              <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-4" />
+              <span id="i2nt0q-2-2-4">Loops</span>
+            </a>
             <ul id="il75k-2" class="sidebar-nav-list">
               <li id="ilg2l-2"></li>
               <li id="il2s3-2">
                 <a href="../printing/" id="iyaakh-2-2" class="gjs-t-link sidebar-link-downloads-active">
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2" />
                   <span id="i2nt0q-2-2">Printing</span>
-                </a>
-                <a href="../functions/" id="iyaakh-2-2-4" class="gjs-t-link sidebar-link-downloads-active">
-                  <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-4" />
-                  <span id="i2nt0q-2-2-4">Functions</span>
                 </a>
                 <a href="../variables/" id="iyaakh-2-2-5" class="gjs-t-link sidebar-link-downloads-active">
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-5" />
@@ -83,9 +83,9 @@
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-3" />
                   <span id="i2nt0q-2-2-3">Statements</span>
                 </a>
-                <a href="../loops" id="iyaakh-2-2-2-2" class="gjs-t-link sidebar-link-downloads-active">
+                <a href="../functions/" id="iyaakh-2-2-2-2" class="gjs-t-link sidebar-link-downloads-active">
                   <img src="https://api.iconify.design/lucide-book-open.svg?color=%23e6e9ef" alt="Documentation icon" width="18" height="18" loading="lazy" id="icclw-2-2-2" />
-                  <span id="i2nt0q-2-2-2-2">Loops</span>
+                  <span id="i2nt0q-2-2-2-2">Functions</span>
                 </a>
               </li>
               <li id="itxwl-2"></li>
@@ -100,7 +100,7 @@
           <div id="iz8gg" class="gjs-t-border release-summary-card">
             <div id="itt5a" class="release-summary-top">
               <div id="iksid" class="release-summary-text">
-                <h2 id="ibdju" class="gjs-t-h2 release-version">Printing</h2>
+                <h2 id="ibdju" class="gjs-t-h2 release-version">Loops</h2>
               </div>
               <div id="ihn5h" class="release-meta">
                 <span id="ive2c">27-4-2026</span>
@@ -110,13 +110,13 @@
           <div id="iz8gg-2" class="gjs-t-border release-summary-card">
             <div id="itt5a-2" class="release-summary-top">
               <div id="iksid-2" class="release-summary-text">
-                <h2 id="ibdju-2" class="gjs-t-h2 release-version">Why do we have printing?</h2>
+                <h2 id="ibdju-2" class="gjs-t-h2 release-version">Why do we have loops?</h2>
               </div>
               <div id="ihn5h-2" class="release-meta"></div>
             </div>
             <div id="itt5a-2-2" class="release-summary-top">
               <div id="iksid-2-2" class="release-summary-text">
-                <h2 id="ibdju-2-2" class="gjs-t-h2 release-version">Printing is very usefull for developers. It is mostly used for debugging or terminal apps</h2>
+                <h2 id="ibdju-2-2" class="gjs-t-h2 release-version">Lets say we want to repeat code a lot of times, a loop would be way more compact than rewriting it or calling the same function over and over again. </h2>
               </div>
               <div id="ihn5h-2-2" class="release-meta"></div>
             </div>
@@ -128,19 +128,29 @@
               </div>
               <div id="ihn5h-2-3" class="release-meta"></div>
             </div>
+            <br id="ivg5d3" />Now, let’s try it out ourselves. Like the restm this has to be inside of a function. So lets create that first:
+            <br data-gs-ib="" id="i70co9" />
+            <pre id="ihf24j"><code id="im0whf">_main() {
+    num x = 5
+}</code></pre>
+            <br id="ibij2l" />next, lets print 1, then 2, then 3 etc x many times (in this case 5).
+            <pre id="ifd7lb"><code id="ix1i6t">_main() {
+    num x = 5
+    num a = 1
+    loop x {
+        print(a)
+        a = a + 1
+        print("\n")
+    }
+}</code></pre>
+            <br id="inmlf8" />here we loop x times, printing and increasing a every time. Running this should result in:
+            <br id="i8n3ru" />1
+            <br id="ibhqvf" />2
+            <br id="i9li8m" />3
+            <br id="ijxva7" />4
+            <br id="io6ca6" />5
             <div id="itt5a-2-2-2" class="release-summary-top">
-              <div id="iksid-2-2-2" class="release-summary-text">
-                <h2 id="ibdju-2-2-3" class="gjs-t-h2 release-version">Now let’s try it out ourselves. Printing is quite simple. To print a string we simply do:
-                  <br id="ilm3il" />
-                  <pre id="iiez6g"><code id="i38uvo">print(“Hello world!“)!</code></pre>
-                  <br id="i3w7ix" />
-                  <br id="igwofw" />To print a variable, we can do:
-                  <pre id="ib8g7e"><code id="ij9z0m">print(var)</code></pre>
-                  <br id="i6c0xl" />
-                  <br id="i04xfq" />We can also print newline characters, they must be inside of a string like this:
-                  <pre id="iwqyj4"><code id="iq5oce">print("\n")</code></pre>
-                </h2>
-              </div>
+              <div id="iksid-2-2-2" class="release-summary-text"></div>
               <div id="ihn5h-2-2-2" class="release-meta"></div>
             </div>
           </div><!-- OS Download Cards --><!-- Installation Instructions -->
